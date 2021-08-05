@@ -3,7 +3,7 @@
 
 /* header section */
 
-@media only screen and (max-width: 1440px) and (min-width: 481px){
+@media only screen and (max-width: 1700px) and (min-width: 481px){
      
 
     header nav .logo {
@@ -129,7 +129,7 @@
 
 /* vision */
 
-@media only screen and (max-width: 1440px) and (min-width: 481px){
+@media only screen and (max-width: 1770px) and (min-width: 481px){
    
     .vision {
         width: 90%;
@@ -193,7 +193,7 @@
 
 /* how it works */
 
-@media only screen and (max-width: 1440px) and (min-width: 481px){
+@media only screen and (max-width: 1700px) and (min-width: 481px){
    
      section .how-it-works {
         display: flex;
@@ -251,7 +251,7 @@
 
 /* footer */
 
-@media only screen and (max-width: 1440px) and (min-width: 481px){
+@media only screen and (max-width: 1700px) and (min-width: 481px){
  
  
  footer .col {
@@ -287,6 +287,9 @@ footer .socail-link {
 
 footer .logo {
     margin-left: 5%;
+    margin-top: 2.2%;
+    height: 25px;
+    width: 100px;
     
 }
 
@@ -298,4 +301,6 @@ footer .logo {
         width: 60%;
         height: 30%;
    }
+
+
 }
