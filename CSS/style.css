@@ -173,9 +173,18 @@ footer .socail a:hover {
     text-transform: uppercase;
 }
 
-.des-menu .first-li a:hover {
+
+.first-a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.des-menu li .first-a:hover {
+    background-color: #000;
     color: #fff;
-    
+    padding-top: 5px;
     
 }
 
@@ -278,10 +287,7 @@ header nav i {
     vertical-align: middle;
 }
 
-.des-menu .first-li:hover {
-    background: #000;
-    color: #fff;
-}
+
 
 /* ================================================================= */
 /* ========= section =========*/
@@ -332,7 +338,10 @@ footer {
     
 }
 
-
+/* footer .logo {
+    height: auto;
+    width: auto;
+} */
 
 .socail {
     position: absolute;
@@ -368,6 +377,13 @@ footer hr {
     display: none;
     position: initial;
 }
+
+
+
+
+
+
+
 
 
 
